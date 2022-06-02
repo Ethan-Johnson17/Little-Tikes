@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5fcf80;
+  background: var(--orange);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #7ed899;
+  background: var(--blue);
   color: #fff;
 }
 .back-to-top.active {
@@ -1179,11 +1179,11 @@ section {
 }
 .contact .info i {
   font-size: 20px;
-  color: #5fcf80;
+  color: var(--purple);
   float: left;
   width: 44px;
   height: 44px;
-  background: #ecf9f0;
+  background: rgb(255, 255, 233);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1207,7 +1207,7 @@ section {
   margin-top: 40px;
 }
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #5fcf80;
+  background: var(--pink);
   color: #fff;
 }
 .contact .php-email-form {
@@ -1231,7 +1231,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: var(--purple);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1249,7 +1249,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid var(--blue);
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1260,7 +1260,7 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #5fcf80;
+  border-color: var(--purple);
 }
 .contact .php-email-form input {
   height: 44px;
@@ -1269,7 +1269,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #5fcf80;
+  background: var(--purple);
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1277,7 +1277,7 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #3ac162;
+  background: var(--pink);
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1340,92 +1340,11 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #5fcf80;
-  font-size: 18px;
-  line-height: 1;
-}
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-#footer .footer-top .footer-links ul a {
-  color: #777777;
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-#footer .footer-top .footer-links ul a:hover {
-  text-decoration: none;
-  color: #5fcf80;
-}
-#footer .footer-newsletter {
-  font-size: 15px;
-}
-#footer .footer-newsletter h4 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #444444;
-  position: relative;
-  padding-bottom: 12px;
-}
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  text-align: left;
-  border: 1px solid #e0e5e2;
-}
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: -1px;
-  right: -1px;
-  bottom: -1px;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px 2px 20px;
-  background: #5fcf80;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 50px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #3ac162;
-}
-#footer .credits {
-  padding-top: 5px;
-  font-size: 13px;
-}
-#footer .credits a {
-  color: #3ac162;
-  transition: 0.3s;
-}
-#footer .credits a:hover {
-  color: #5fcf80;
-}
+
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5fcf80;
+  background: var(--purple);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1437,7 +1356,7 @@ section {
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #3ac162;
+  background: var(--pink);
   color: #fff;
   text-decoration: none;
 }
