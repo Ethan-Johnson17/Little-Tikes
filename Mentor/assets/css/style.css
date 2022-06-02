@@ -771,8 +771,22 @@ section {
   max-width: 100%;
 }
 
-#team .member .details {
-  background: #50d8af;
+#team .member .details-blue {
+  background: var(--blue);
+  color: #fff;
+  padding: 15px;
+  border-radius: 0 0 3px 3px;
+}
+
+#team .member .details-yellow {
+  background: var(--yellow);
+  color: #fff;
+  padding: 15px;
+  border-radius: 0 0 3px 3px;
+}
+
+#team .member .details-purple {
+  background: var(--purple);
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
