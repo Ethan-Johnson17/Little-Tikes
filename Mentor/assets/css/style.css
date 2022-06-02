@@ -1070,6 +1070,10 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing-header {
+  color: var(--blue);
+}
+
 .pricing .box {
   padding: 20px;
   background: #fff;
@@ -1149,7 +1153,11 @@ section {
 }
 .pricing .featured h3 {
   color: #fff;
-  background: #5fcf80;
+  background: var(--orange);
+}
+.pricing .featured2 h3 {
+  color: #fff;
+  background: var(--pink);
 }
 .pricing .advanced {
   width: 200px;
@@ -1168,7 +1176,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact-header {
-  color: var(--blue);
+  color: var(--purple);
 }
 .contact {
   padding-top: 5px;
